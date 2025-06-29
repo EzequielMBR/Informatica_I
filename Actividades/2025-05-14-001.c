@@ -52,7 +52,7 @@ int main(){
     porcentaje_vocales = (contador_vocales * 100) / contador_total;
     porcentaje_consonantes = (contador_consonantes * 100) / contador_total;
 
-    printf("Ingreso el caracter '0'. El programa finalizó.\n\n");
+    printf("Ingreso el caracter '0'. El programa finalizÃ³.\n\n");
     printf("La cantidad de vocales A ingresadas fue de: %d\n", contador_a);
     printf("La cantidad de vocales E ingresadas fue de: %d\n", contador_e);
     printf("La cantidad de vocales I ingresadas fue de: %d\n", contador_i);
