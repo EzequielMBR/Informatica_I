@@ -76,7 +76,7 @@ int main ()
     }
     while(opcion != 'N' && opcion != 'n');
 
-    printf("\n\nHay %d empleados que miden hasta 175cm, y %d empleados que miden m·s de 175cm.", cantidad_hasta_175, cantidad_mas_175);
+    printf("\n\nHay %d empleados que miden hasta 175cm, y %d empleados que miden m√°s de 175cm.", cantidad_hasta_175, cantidad_mas_175);
 
     if(cantidad_mas_1500 != 0)
     {
