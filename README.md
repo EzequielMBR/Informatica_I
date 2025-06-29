@@ -8,8 +8,9 @@ Las actividades, trabajos prácticos y parciales estarán en sus respectivas car
 
 # Nombre de los Archivos
 Los archivos de código se guardarán con el siguiente formato:
-* Actividades: act-XXX_DD-MM-AAAA_UTN-FRA
-* Trabajos Prácticos: tp-XXX_DD-MM-AAAA_UTN-FRA
-* Parciales: par-XXX_DD-MM-AAAA_UTN-FRA
+* Actividades: AAAA-MM-DD-XXX
+* Trabajos Prácticos: TPX-AAAA-MM-DD-XXX
+* Actividades Tipo Parcial: TP-AAAA-MM-DD-XXX
+* Parciales: PX-AAAA-MM-DD-XXX
 
 Tec. Ezequiel Matías B. R.
