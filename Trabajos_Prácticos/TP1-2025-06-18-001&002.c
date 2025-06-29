@@ -9,7 +9,7 @@ int main(){
     int contador = 1;
     char opcion = 0;
 
-    printf("\nIngrese al menos 3 números enteros.\n\n");
+    printf("\nIngrese al menos 3 nÃºmeros enteros.\n\n");
 
     do
     {
@@ -70,7 +70,7 @@ int main(){
 
         do
             {
-                printf("\n¿Desea continuar?  SI (S)   NO (N).\n");
+                printf("\nÂ¿Desea continuar?  SI (S)   NO (N).\n");
                 fflush(stdin);
                 scanf(" %c", &opcion);
             }
