@@ -1,8 +1,8 @@
 #include <stdio.h>      // Biblioteca Estandas de Entradas y Salidas
 
-int main()      // Función principal
+int main()      // FunciÃ³n principal
 {
-    char caracter;                      // Variable del caracter que ingresará el usuario
+    char caracter;                      // Variable del caracter que ingresarÃ¡ el usuario
     int contador_a = 0;                 // Variable del contador de vocales A
     int contador_e = 0;                 // Variable del contador de vocales E
     int contador_i = 0;                 // Variable del contador de vocales I
@@ -16,9 +16,9 @@ int main()      // Función principal
     float porcentaje_consonantes = 0;   // Variable del porcentaje de consonante
 
 
-    printf("\nUsted ingresara caracteres hasta ingresar el caracter (0).\n");       // Indico al usuario qué debe realizar
+    printf("\nUsted ingresara caracteres hasta ingresar el caracter (0).\n");       // Indico al usuario quÃ© debe realizar
 
-    do      // Hacer (Ir a While, línea 55)
+    do      // Hacer (Ir a While, lÃ­nea 55)
     {
         printf("\nIngrese un caracter:\n");     // Indico al usuario que ingrese un caracter
         scanf(" %c", &caracter);                // Leo el caracter ingresado por el usuario
@@ -54,7 +54,7 @@ int main()      // Función principal
     }
     while(caracter != '0');     // (Desde hacer) Mientras el caracter ingresado por el usuario sea distinto de '0'
 
-    printf("\nUsted ingreso el caracter (0).\n\n");                     // Indico que el usuario ingresó el caracter '0'
+    printf("\nUsted ingreso el caracter (0).\n\n");                     // Indico que el usuario ingresÃ³ el caracter '0'
     printf("Se ingresaron %d vocales (A).\n", contador_a);              // Indico la cantidad de vocales A
     printf("Se ingresaron %d vocales (E).\n", contador_e);              // Indico la cantidad de vocales E
     printf("Se ingresaron %d vocales (I).\n", contador_i);              // Indico la cantidad de vocales I
@@ -71,5 +71,5 @@ int main()      // Función principal
     printf("\nEl porcentaje de vocales es: %.2f.", porcentaje_consonantes);     // Indico el porcentaje de consonantes con dos decimales
 
 
-    return 0;       // Devuelve un valor 0 para indicar que el algoritmo se ejecutó correctamente
+    return 0;       // Devuelve un valor 0 para indicar que el algoritmo se ejecutÃ³ correctamente
 }
